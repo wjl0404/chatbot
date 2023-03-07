@@ -8,5 +8,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Security vulnerabilities scan
-        uses: actions/aufdenpunkt/python-safety-check
+        uses: aufdenpunkt/python-safety-check
 
