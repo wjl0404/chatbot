@@ -8,8 +8,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out master
-        uses: actions/checkout
+        uses: actions/checkout@main
 
       - name: Security vulnerabilities scan
-        uses: aufdenpunkt/python-safety-check
+        uses: aufdenpunkt/python-safety-check@main
 
